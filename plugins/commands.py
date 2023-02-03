@@ -247,7 +247,7 @@ async def start(client, message):
         chat_id=message.from_user.id,
         file_id=file_id,
         caption=f_caption,
-        reply_markup=InlineKeyboardMarkup( [ [InlineKeyboardButton('sᴜʙsᴄʀɪʙᴇ', url='https://youtube.com/@voiceofmalikoffl')] ] ),
+        reply_markup=InlineKeyboardMarkup( [ [InlineKeyboardButton('Join Us 🍟', url='https://t.me/Cinemahost1')],[InlineKeyboardButton('New Uploads 🔔', url='https://t.me/+Ja7SvobwfQpiN2I1')] ] ),
         protect_content=True if pre == 'filep' else False,
         )
                     
