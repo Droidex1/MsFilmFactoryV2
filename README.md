@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://telegra.ph/file/8c5b584dd3f9b2ed31d87.jpg" alt="Lazy Princess Logo">
+  <img src="https://telegra.ph/file/41695ccab17f473096739.jpg" alt="Lazy Princess Logo">
 </p>
 <h1 align="center">
   <b> Ms Film Factory </b>
