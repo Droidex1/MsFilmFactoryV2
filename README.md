@@ -2,7 +2,7 @@
   <img src="https://telegra.ph/file/41695ccab17f473096739.jpg" alt="Lazy Princess Logo">
 </p>
 <h1 align="center">
-  <b> Ms Film Factory </b>
+  <b>👤 @CINEMAHOST1 👤 </b>
 </h1>
 
 
