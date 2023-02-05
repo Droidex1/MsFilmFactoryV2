@@ -55,9 +55,9 @@ async def save_group(bot, message):
                         pass
                 temp.MELCOW['welcome'] = await message.reply_video(
                 video="https://telegra.ph/file/03691465baa774e46506d.mp4",                                               
-                                                 caption=f'<b>ʜᴇʏ, {u.mention} 👋🏻\nᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴏᴜʀ ɢʀᴏᴜᴘ {message.chat.title}\n\nFind Any Media ! if you need any movie then then enter the movie name + years. 👍\n\nGuys Enter Only movie Or Webseries Name like This 👇\n\nVarisu ✅\nVarisu 2023 ✅\nVarisu Tamil ✅\nVarisu in Tamil ❌\nFall ✅\nFall S01 ✅\nFall all season ❌</b>',
-                                                 reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('🔥  ↭ Main Channel ↭  🔥', url='http://t.me/Cinemahost1') ],
-                                                                                      [ InlineKeyboardButton('🔥  ↭ DEV Channel ↭  🔥', url='https://t.me/chostengine') ]
+                                                 caption=f'<b>ʜᴇʏ, {u.mention} 👋🏻\nᴡᴇʟᴄᴏᴍᴇ ᴛᴏ ᴏᴜʀ ɢʀᴏᴜᴘ {message.chat.title}\n\nFind Any Media ! if you need any movie then then enter the movie name + years. 👍\n\nGuys Enter Only movie Or Webseries Name like This 👇\n\nVarisu ✅\nVarisu 2023 ✅\nVarisu Tamil ✅\nVarisu in Tamil ❌\nFall ✅\nFall S01 ✅\nFall all season ❌\n\n⚠️Note:\n✯ You Must Join Update Channel @chostengine 📢 To Access Me 😅 ✯</b>',
+                                                 reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('↭🔔 New Uploads List 📃↭', url='https://t.me/+Ja7SvobwfQpiN2I1') ],
+                                                                                      [ InlineKeyboardButton('↭📢 Update Channel 📢↭', url='https://t.me/chostengine') ],[ InlineKeyboardButton('↭✅ Main Channel ✅↭', url='http://t.me/Cinemahost1') ]
                                                                                     ] )
                 )
 
