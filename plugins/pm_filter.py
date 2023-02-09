@@ -113,7 +113,7 @@ async def next_page(bot, query):
     btn.insert(0,
         [
             InlineKeyboardButton(text="⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ⚡", url='https://t.me/ChostEngine/248')
-        ]
+        ],[ InlineKeyboardButton('🔥More Groups', url='https://t.me/ChostEngine/262'), InlineKeyboardButton('Mdisk Group Ⓜ️', url='https://t.me/ChostEngine/266') ]
     )
 
     if 0 < offset <= 10:
@@ -580,7 +580,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "stats":
         buttons = [[
             InlineKeyboardButton('👩‍🦯 𝙱𝙰𝙲𝙺', callback_data='help'),
-            InlineKeyboardButton('♻️ 𝚁𝙴𝙵𝚁𝙴𝚂𝙷', callback_data='rfrsh')
+            InlineKeyboardButton('♻️ 𝚁𝙴𝙵𝚁𝙴𝚂𝙷,Tʀʏ Aɢᴀɪɴ', callback_data='rfrsh')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         total = await Media.count_documents()
