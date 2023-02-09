@@ -113,7 +113,7 @@ async def next_page(bot, query):
     btn.insert(0,
         [
             InlineKeyboardButton(text="⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ⚡", url='https://t.me/ChostEngine/248')
-        ],[ InlineKeyboardButton('🔥More Groups', url='https://t.me/ChostEngine/262'), InlineKeyboardButton('Mdisk Group Ⓜ️', url='https://t.me/ChostEngine/266') ]
+        ],[ InlineKeyboardButton(text="🔥More Groups", url='https://t.me/ChostEngine/262'), InlineKeyboardButton(text="Mdisk Group Ⓜ️", url='https://t.me/ChostEngine/266') ]
     )
 
     if 0 < offset <= 10:
@@ -724,6 +724,9 @@ async def auto_filter(client, msg, spoll=False):
     btn.insert(0,
         [
             InlineKeyboardButton(text="⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ⚡", url='https://t.me/ChostEngine/248')
+        ],
+        [ 
+            InlineKeyboardButton(text="🔥More Groups", url='https://t.me/ChostEngine/262'), InlineKeyboardButton(text="Mdisk Group Ⓜ️", url='https://t.me/ChostEngine/266') 
         ]
     )
 
