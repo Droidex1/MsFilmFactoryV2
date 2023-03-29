@@ -383,7 +383,7 @@ async def get_shortlink(link):
         https = "https"
         link = link.replace("http", https)
 
-    url = f'https://mdisklink.link/api'
+    url = f'https://tinyfy.in/api'
     params = {'api': URL_SHORTNER_WEBSITE_API,
               'url': link,        
               }
